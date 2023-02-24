@@ -1,0 +1,24 @@
+{
+    "header": {
+        "navigation": {
+            "home": "Home",
+            "about": "Over Ons"
+        }
+    },
+    "app": {
+        "intro": {
+            "title": {
+                "0": "Waar de wereld van",
+                "1": "op één plek samenkomen."
+            },
+            "subtitle": "Beluister radios uit verschillende landen",
+            "request": "Vraag radio aan"
+        },
+        "player": {
+            "title": "Aan het luisteren",
+            "dates": {
+                "months": ["Jan", "Feb", "Maa", "April", "Mei", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "header": {
+        "navigation": {
+            "home": "Home",
+            "about": "About Us"
+        }
+    },
+    "app": {
+        "intro": {
+            "title": {
+                "0": "Where the world of",
+                "1": "come together in one app."
+            },
+            "subtitle": "Listen to radio's from different countries",
+            "request": "Request radio"
+        },
+        "player": {
+            "title": "Playing Now",
+            "dates": {
+                "months": ["Jan", "Feb", "Mar", "April", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+            }
+        }
+    }
+}

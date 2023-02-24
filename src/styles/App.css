@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: system-ui, sans-serif;
+    background-color: #282828;
+    /* background-color: #F8E0FA; */
+    /* background: linear-gradient(146.54deg, #F8E0FA 22%, rgba(248, 224, 250, 0.06) 117.73%); */
+    /* background-size: cover; */
+}
+
+body {
+    background-color: #fff;
+}
+
+main {
+    min-height: calc(100vh - 65px - 29px);
+    background: linear-gradient(146.54deg, #F8E0FA 22%, rgba(248, 224, 250, 0.06) 117.73%);
+}
+
+@media only screen and (max-width: 600px) {
+    main {
+        min-height: calc(100vh - 62.5px - 29px);
+    }
+}
