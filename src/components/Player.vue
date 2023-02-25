@@ -1,8 +1,8 @@
 <template>
   <div>
-    <audio crossorigin="anonymous" autoplay>
-        <source :src="currentRadio.url" type="audio/ogg">
-        <source :src="currentRadio.url" type="audio/mpeg">
+    <audio ref="player" crossorigin="anonymous" autoplay>
+        <source v-bind:src="currentRadio.url" type="audio/ogg">
+        <source v-bind:src="currentRadio.url" type="audio/mpeg">
     </audio>
     <div class="player">
         <div class="heading">
@@ -35,13 +35,12 @@ export default {
     name: "PlayerComponent",
     data() {
         return {
-            currentRadio: this.data.radios.NL[2],
             playing: true,
             date: new Date(),
         }
     },
     props: {
-        data: JSON, lang: JSON
+        data: JSON, lang: JSON, currentRadio: JSON
     },
     methods: {
         playingController: function() {
@@ -69,6 +68,12 @@ export default {
     },
     mounted() {
         this.startWaveform();
+    },
+    created() {
+        this.$watch('currentRadio', () => {
+            this.$refs.player.load();
+            this.playing = true;
+        })
     }
 }
 </script>

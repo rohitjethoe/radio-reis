@@ -19,6 +19,17 @@
             "dates": {
                 "months": ["Jan", "Feb", "Mar", "April", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
             }
+        },
+        "select": {
+            "countries": {
+                "NL": "Netherlands",
+                "IN": "India",
+                "JP": "Japan"
+            },
+            "extra": {
+                "title": "Country?",
+                "subtitle": "More coming soon..."
+            }
         }
     }
 }

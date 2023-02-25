@@ -1,19 +1,71 @@
 {
     "radios": {
-        "NL": {
+        "nl": {
             "0": {
+                "id": 0,
+                "country": "nl",
                 "name": "NPO Radio 1",
                 "url": "https://icecast.omroep.nl/radio1-bb-mp3"
             },
             "1": {
+                "id": 1,
+                "country": "nl",
                 "name": "NPO Radio 2",
                 "url": "https://icecast.omroep.nl/radio2-bb-mp3"
             },
             "2": {
+                "id": 2,
+                "country": "nl",
                 "name": "FunX Amsterdam",
                 "url": "https://icecast.omroep.nl/funx-amsterdam-bb-mp3"
+            },
+            "3": {
+                "id": 3,
+                "country": "nl",
+                "name": "AMOR FM",
+                "url": "https://amorfm_192.streampartner.nl/stream"
             }
-        }
+        },
+        "in": {
+            "0": {
+                "id": 0,
+                "country": "in",
+                "name": "V V Radio",
+                "url": "http://music2.vvradio.co.in:2802/stream2"
+            },
+            "1": {
+                "id": 1,
+                "country": "in",
+                "name": "Radio Bolly FM",
+                "url": "https://onlineradiobox.com/json/in/radiobollyfm/play?platform=web"
+            },
+            "2": {
+                "id": 2,
+                "country": "in",
+                "name": "BBC Hindi",
+                "url": "https://onlineradiobox.com/json/in/bbchindi/play?platform=web"
+            }
+        },
+        "jp": {
+            "0": {
+                "id": 0,
+                "country": "jp",
+                "name": "J-Pop Powerplay",
+                "url": "https://onlineradiobox.com/json/jp/asiadreamradio/play?platform=web"
+            },
+            "1": {
+                "id": 1,
+                "country": "jp",
+                "name": "Vocaloid Radio",
+                "url": "https://onlineradiobox.com/json/jp/vocaloidradio/play?platform=web"
+            },
+            "2": {
+                "id": 2,
+                "country": "jp",
+                "name": "J1 Radio",
+                "url": "https://onlineradiobox.com/json/jp/j1/play?platform=web"
+            }
+        } 
     },
     "playing": {
         "0": {

@@ -11,13 +11,24 @@
                 "0": "Waar de wereld van",
                 "1": "op één plek samenkomen."
             },
-            "subtitle": "Beluister radios uit verschillende landen",
+            "subtitle": "Beluister radio's uit verschillende landen",
             "request": "Vraag radio aan"
         },
         "player": {
             "title": "Aan het luisteren",
             "dates": {
                 "months": ["Jan", "Feb", "Maa", "April", "Mei", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+            }
+        },
+        "select": {
+            "countries": {
+                "NL": "Nederland",
+                "IN": "India",
+                "JP": "Japan"
+            },
+            "extra": {
+                "title": "Land?",
+                "subtitle": "Binnenkort meer..."
             }
         }
     }
